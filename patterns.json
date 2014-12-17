@@ -1,0 +1,7 @@
+{
+  "exe|zip|msi|torrent|jar|air|gmk": "./Setup Files",
+  "jpg|jpeg|png|gif": "./Pictures",
+  "mp3|wav": "./Music",
+  "doc|pdf|oxps|txt|md": "./Documents",
+  "mov|mp4|wmv|mkv": "./Videos"
+}
