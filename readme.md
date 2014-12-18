@@ -24,7 +24,7 @@ yang({
 
 Which will ouput...
 
-```json
+```javascript
 { 'Web Pages': 
    [ '5.10.2014 17-16-40 Twine Archive.html',
      'Conversation.html',
