@@ -12,7 +12,8 @@ var yang = require('yang')
 
 yang({
 	patterns: {
-		'html': 'Web Pages'
+	  'png|jpeg|jpg': 'Pictures',
+	  'txt|pdf|doc|docx': 'Documents'
 	},
 	sortPath: process.env.HOMEPATH+'/desktop'
 })
@@ -25,10 +26,18 @@ yang({
 Which will ouput...
 
 ```javascript
-{ 'Web Pages': 
-   [ '5.10.2014 17-16-40 Twine Archive.html',
-     'Conversation.html',
-     'hi.html',
-     'wow.html' ] }
+{ Pictures: 
+   [ 'BznRVAYCQAAP6QV.png',
+     'download (1).png',
+     'download (2).png',
+     'download (3).png',
+     'download (4).png',
+     'download.png',
+     'BznRVAYCQAAP6QV.png-large',
+     'unnamed (1).jpg',
+     'unnamed (2).jpg',
+     'unnamed (3).jpg',
+     'unnamed.jpg' ],
+  Documents: [ 'example.doc', 'js-in-ten-minutes.pdf' ] }
 
 ```
